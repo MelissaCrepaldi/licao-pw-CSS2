@@ -1,37 +1,82 @@
- body{
-     background-color:#274938;
-    color:#333b2d;            
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
-    margin: 0%;
-    line-height: 1.6;
-    padding: 20px;  
-    align-items: center;  
-}
-    
- 
- div {
-        background-color: rgb(105, 156, 128);
-        width: 50%;
-        border: dashed black 1px;
-        padding: 20px;
-        box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
-        max-width: 600px;
-         margin: 20px auto;
-        align-items: center;
-      }
-      
-h1 {
-    color:#75b37c;         
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
-    text-align: center; 
+header h1 {
+    text-align: center;
+    font-size: 65px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 0 0 10px #b4afaf;
+    margin-top: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-p{
+header p {
+    font-size: 20px;
+    color: #7f8c8d;
     text-align: center;
-    color: #90c1a3;
-    
+    align-items: center;
+}
+
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 a {
-    color: #333b2d;
+    color: rgb(237, 100, 100);
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
 }
+
+img {
+    width: 100%;
+    max-width: 250px;
+    height: 160px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.carros {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-around;
+    border-radius: 8px;
+    background-color: #dfd8db;
+
+    padding: 20px;
+    width: 100%;
+    gap: 30px;             
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    flex-wrap: wrap;
+}
+
+.citroen {
+    background-color: rgb(208, 132, 132);
+    border-radius: 8px;
+}
+
+
+.fiat {
+    background-color: rgb(132, 180, 208);
+    border-radius: 8px;
+}
+
+
+.ford {
+    background-color: #d95959 ; 
+    border-radius: 8px;
+}
+
+.fusca {
+    background-color: rgb(217, 137, 51);
+    border-radius: 8px;
+}
+
+.opala {
+    background-color: rgb(213, 71, 161);
+    border-radius: 8px;
+}
+

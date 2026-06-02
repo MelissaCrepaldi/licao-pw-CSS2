@@ -19,15 +19,31 @@ section {
         align-items: center;
       }
 
-      div { 
+      div, img{ 
         max-width: 600px;
          margin: 20px auto;
         align-items: center;
+        border: none;
+        border-radius: 10px;
       }
 
 h1 {
     color:#2d5469;         
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
     text-align: center; 
+}
+
+a {
+  text-decoration: none;
+  color: #2d5469;
+  font-weight: bold;
+    transition: transform 0.3s ease;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+  color:#617383;
+  transform: scale(1.1);
 }
 

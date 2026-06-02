@@ -33,6 +33,15 @@ h1 {
 }
 
 a {
-  color: #486278;
+  text-decoration: none;
+  color: #69532d;
+  font-weight: bold;
+    transition: transform 0.3s ease;
+    font-size: 18px;
+    transition: all 0.3s ease;
 }
 
+a:hover {
+  color:#837561;
+  transform: scale(1.1);
+}
